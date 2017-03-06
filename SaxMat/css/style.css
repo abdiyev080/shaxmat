@@ -1,0 +1,22 @@
+.saxmat{
+	width:900px;
+	margin:0 auto;
+}
+.table1{
+	height: 100px;
+	width: 100px;
+	background: #E1C096;
+	float: left;
+}
+.table2{
+	height: 100px;
+	width: 100px;
+	background: #623325;
+	float: left;
+}
+.table1,.table2{
+	 border:1px solid #2A0705;
+}
+.row::after{
+	clear: both;
+}
